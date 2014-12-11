@@ -2,7 +2,7 @@
 
 [![Travis Build](http://img.shields.io/travis/maximilianschmitt/sanee.svg?style=flat)](https://travis-ci.org/maximilianschmitt/sanee)
 
-> A sanitizer for (nested) objects with a simple API.
+> A sanitizer for (nested) objects with a simple API. For validating objects, check out [valee](https://github.com/maximilianschmitt/valee).
 
 ## Usage
 
