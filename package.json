@@ -1,0 +1,24 @@
+{
+  "name": "sanee",
+  "description": "A sanitizer for (nested) objects with a simple API.",
+  "version": "0.0.1",
+  "dependencies": {
+    "validator": "^3.22.2"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+  	"test": "node node_modules/mocha/bin/mocha"
+  },
+  "homepage": "https://github.com/maximilianschmitt/sanee",
+  "bugs": "https://github.com/maximilianschmitt/sanee/issues",
+  "author": {
+  	"name": "Maximilian Schmitt",
+  	"email": "maximilian.schmitt@googlemail.com",
+  	"url": "http://maximilianschmitt.me"
+  },
+  "main": "./lib/sanee",
+  "license": "MIT"
+}
