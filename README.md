@@ -1,6 +1,6 @@
 # sanee
 
-[![Travis Build](http://img.shields.io/travis/maximilianschmitt/sanee.svg?style=flat)](https://travis-ci.org/maximilianschmitt/sanee)
+[![Travis Build](http://img.shields.io/travis/maximilianschmitt/sanee.svg?style=flat)](https://travis-ci.org/maximilianschmitt/sanee) [![Coverage Status](https://coveralls.io/repos/maximilianschmitt/sanee/badge.svg?branch=master)](https://coveralls.io/r/maximilianschmitt/sanee?branch=master)
 
 > A sanitizer for (nested) objects with a simple API. For validating objects, check out [valee](https://github.com/maximilianschmitt/valee).
 
