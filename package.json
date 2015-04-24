@@ -1,7 +1,7 @@
 {
   "name": "sanee",
   "description": "A sanitizer for (nested) objects with a simple API.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "validator": "^3.22.2"
   },
