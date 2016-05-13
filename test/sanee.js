@@ -35,4 +35,16 @@ describe('sanee', function() {
 		var sanitized = sanitize({ user: { email: 'Maximilian.schmitt@googleMail.com', name: '  Max   ' } });
 		expect(sanitized).to.deep.equal({ user: { email: 'maximilianschmitt@gmail.com', name: 'Max' } });
 	});
+
+	it('sanitizes nested objects without input', function() {
+		var sanitize = sanee({
+			user: {
+				email: sanee.normalizeEmail({ lowercase: true }),
+				name: sanee.trim()
+			}
+		});
+
+		var sanitized = sanitize({});
+		expect(sanitized).to.deep.equal({ user: {} });
+	});
 });
